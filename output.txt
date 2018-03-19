@@ -1,1 +1,1 @@
-D:wordtest.c 单词数：53D:wordtest.c 字符数：188
+D:wordtest.c 单词数：16D:wordtest.c 字符数：152

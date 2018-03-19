@@ -25,14 +25,16 @@ public class wcbasic{
         try {
             while((s=br.readLine())!=null)
             {
-                countChar += s.length()+1;
+                countChar += s.length();
                 if(s.contains("\t")){
                     countChar--;
                 }
                 strCount+=(s+" ");
                 countLine++;
+                if(countLine!=1)
+                    countChar++;
             }
-            String results[]  = strCount.split(" |,|\\n|\\t");
+            String results[]  = strCount.split("( |,|\\n|\\t)+");
             countWord = results.length;
             String content = null;
             switch(m){
