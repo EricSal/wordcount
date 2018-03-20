@@ -1,1 +1,1 @@
-wordtest.c 单词数：16wordtest.c 行数：4
+char2.c 字符数：74char2.c 行数：7char2.c 字符数：74 单词数：1 行数：7
